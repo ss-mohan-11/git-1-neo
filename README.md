@@ -1,31 +1,63 @@
 # AI ChatBot Integration Platform
 
-Phase 1 is the React dashboard for managing chatbot configurations. It currently uses sample data and browser-only React state; the Express API and MongoDB database will be added in Phase 2.
+A full-stack college project for creating and managing chatbot configurations across different target platforms.
 
-## Run locally
+## Project Status
 
-From this project folder, run:
+**Phase 1 — React Dashboard:** Completed
+
+The current version uses React state and sample data. Backend, database, and AI integration are planned for later phases.
+
+## Features
+
+* Responsive chatbot dashboard
+* View sample chatbot configurations
+* Search chatbot entries
+* Filter chatbots by target platform
+* Create chatbots with form validation
+* Delete chatbots with confirmation
+* Loading, empty, success, and error states
+* Responsive layout for desktop and mobile
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+* Git and GitHub
+
+## Requirements
+
+Install a supported version of Node.js and npm.
+
+## Run Locally
+
+Clone the repository and enter the project directory:
 
 ```bash
+git clone https://github.com/ss-mohan-11/git-1-neo.git
+cd git-1-neo
 npm install
 npm run dev
 ```
 
-Open the local address printed by Vite (normally `http://localhost:5173`). Press `Ctrl+C` in the terminal to stop the development server.
+Open the local URL printed by Vite, usually `http://localhost:5173/`.
 
-## Available checks
+## Current Limitations
 
-```bash
-npm run lint
-npm run build
-```
+* Chatbot data is stored in React state and resets when the page refreshes.
+* No backend API or database is connected yet.
+* Actual chatbot deployment and AI provider integration are not implemented yet.
 
-## Phase 1 features
+## Planned Development
 
-- Dashboard and chatbot list with Web, WhatsApp, and Slack sample bots
-- Create form with required fields, optional details, and inline validation
-- Search and platform filtering
-- Delete confirmation, loading feedback, empty states, and success/error messages
-- Responsive layout and keyboard-friendly controls
+1. Complete and verify the React dashboard.
+2. Build a backend API using Node.js and Express.
+3. Connect a MongoDB database using Mongoose.
+4. Explore AI provider integration.
+5. Add testing, documentation, and deployment preparation.
 
-Chatbot changes are kept in memory and reset when the page is refreshed. No backend or AI provider is connected yet.
+## License
+
+This project is developed for educational and portfolio purposes.
